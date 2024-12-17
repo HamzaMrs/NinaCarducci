@@ -43,6 +43,10 @@ body {
 	height: 20px;  /* ajout du height */
 }
 
+.visually-hidden{ /* enlever les 2 contrast errors*/
+	visibility: hidden;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
