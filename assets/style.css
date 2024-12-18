@@ -92,6 +92,7 @@ img.d-block.w-100 {
 }
 .about-me__introduction {
 	font-family: 'Spectral';
+	font-size: 16px; /* ajout de la taille pour eviter alerts sur wave */
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -136,8 +137,9 @@ img.d-block.w-100 {
 }
 .gallery-item {
 	position: absolute;
-	width: 440px; /* Fixer la taille à 440px */
-	height: 440px;
+	width: 440px; 
+	max-height: 440px;
+	height: 100%;
 	object-fit: cover;
 	padding: .5em;
 	box-sizing: border-box;
