@@ -112,7 +112,7 @@ img.d-block.w-100 {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link { /* ajout de active-tag pour les filtres */
 	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
@@ -143,6 +143,7 @@ img.d-block.w-100 {
 	object-fit: cover;
 	padding: .5em;
 	box-sizing: border-box;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
