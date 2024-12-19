@@ -186,7 +186,7 @@
           index = i ;
         }
       });
-      next = imagesCollection[index - 1] || imagesCollection[imagesCollection.length - 1];
+      next = imagesCollection[index - 1] || imagesCollection[imagesCollection.length - 1]; // ajout de -1
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     // Naviguer vers l'image suivante dans la lightbox
@@ -224,7 +224,7 @@
           index = i;
         }
       });
-      next = imagesCollection[index + 1] || imagesCollection[0];
+      next = imagesCollection[index + 1] || imagesCollection[0]; // ajout de +1
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     // Créer la lightbox pour afficher les images en grand format
